@@ -493,13 +493,13 @@
     <!-- <dynamics damping="0" friction="0" /> -->
   </joint>
   
-    <link name="laser_data_link">
+    <link name="laser">
     </link>
 
     <joint name="laser_data_joint" type="fixed">
         <origin xyz="0.0 0 -1.6" rpy="0 0 -1.7"/>
         <parent link="laser_link"/>
-        <child link="laser_data_link"/>
+        <child link="laser"/>
     </joint>
 
   
