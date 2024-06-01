@@ -33,7 +33,7 @@ protected:
 
         joint_limits_interface::VelocityJointSaturationInterface velocityJointSaturationInterface;
 
-        std::string joint_name_[2] = {"wheel_left_joint", "wheel_right_joint"};
+        std::string joint_name_[2] = {"left_wheel_joint", "right_wheel_joint"};
         double joint_position_[2];
         double joint_velocity_[2];
         double joint_effort_[2];
